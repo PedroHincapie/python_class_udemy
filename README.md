@@ -2,10 +2,6 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
-
 ## 📝 Table of Contents
 
 - [About](#about)
@@ -26,53 +22,56 @@ Estas son mis primeras APP automatizadoras, egnerare un conjunto de proyectos en
 
 Por medio de la presente, deseo poner a disponision toda la informacion que recopile del presente.
 
-### Prerequisitos
+##### Lista de proyectos
+ - browser_autamation_and_web_scraping
 
-Estos fuero mis pasos para la construcion
+##### browser_autamation_and_web_scraping
+Permitira la creacion de ....
+
+### Instalacion
+##### Luego de la clonacion del proyecto
 
 ```
-cd my_first_api
+git clone pryecto
+```
+
+##### Identifica el proyecto que deseas acceder
+```
+cd proyecto_que_deseo
+```
+
+##### Genero el entorno virtaul para este
+```
 python3 -m venv env
+```
+
+##### Activacion
+```
 source env/bin/activate
 ```
 
-En caso de salir del entorno virtual
-
+##### En caso de desear desacticar
 ```
 deactivate
 ```
 
-Para validar que los pasos anteriores sean correacto tenemos
-
+##### Para validar que los pasos anteriores sean correacto tenemos
 ```
 which python3
 ```
 
-Librerias que uso
-
+##### Estas son las librearias que se usan
 ```
-pip install fastapi
-```
-
-```
-pip install uvicorn
+pip install -U selenium
 ```
 
-Luego, guardo todo lo instalado en mi archivo requirements.txt
-
+##### Guardar instalado en mi archivo de versiones
 ```
-pip3 install -r requirements.txt
+ pip3 freeze > requirements.txt 
 ```
 
-### Installing
-
-Para obtener el proyecto
-
+##### Para tu caso, es solo que apliques este comando y todas las librerias se aplicaran
 ```
-git clone
-cd my_first_api
-python3 -m venv env
-source env/bin/activate
 pip3 install -r requirements.txt
 ```
 
