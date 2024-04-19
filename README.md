@@ -1,18 +1,4 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
-</p>
-
-<h3 align="center">My First API in Python</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
+<h3 align="center">Python Bot</h3>
 
 ---
 
@@ -34,7 +20,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Estas es mi primera API con Pyhton.
+Estas son mis primeras APP automatizadoras, egnerare un conjunto de proyectos en el presente con el deseo que tenga un set de bot que me ayude en el día a día
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -63,14 +49,17 @@ which python3
 ```
 
 Librerias que uso
+
 ```
 pip install fastapi
 ```
+
 ```
 pip install uvicorn
 ```
 
 Luego, guardo todo lo instalado en mi archivo requirements.txt
+
 ```
 pip3 install -r requirements.txt
 ```
@@ -90,17 +79,21 @@ pip3 install -r requirements.txt
 ## 🔧 Running the tests <a name = "tests"></a>
 
 Pasos para poner a correr esta APP
+
 ### Ejucutar modo local
+
 ```
 uvicorn main:app
 ```
 
 ## En caso que deses realizar cambios sin tener que estar deteniendo la APP
+
 ```
 uvicorn main:app --reload
 ```
 
 ## En caso de necesitar cambiar el puerto de la appla APP
+
 ```
 uvicorn main:app --reload --port 8080
 ```
@@ -109,11 +102,13 @@ uvicorn main:app --reload --port 8080
 
 Para hacer uso de la documentacion tenemos
 Dependera de donde tiene corriendo la app pero siempre sera el /docs
+
 ```
 http://127.0.0.1:8080/docs
 ```
 
 ##### Para editar informacion de la documentacion tenemos
+
 ```
 Por favor, ir al repositorio y buscar "Adicionar informacion para la doc de la APP"
 ```
