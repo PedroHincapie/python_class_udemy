@@ -23,7 +23,8 @@ Estas son mis primeras APP automatizadoras, egnerare un conjunto de proyectos en
 Por medio de la presente, deseo poner a disponision toda la informacion que recopile del presente.
 
 ##### Lista de proyectos
- - browser_autamation_and_web_scraping
+ - browser_autamation_and_web_scraping:
+    - scrape_simple_text_with_seleniun
 
 ##### browser_autamation_and_web_scraping
 Permitira la creacion de ....
