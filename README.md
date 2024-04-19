@@ -62,7 +62,8 @@ which python3
 
 ##### Estas son las librearias que se usan
 ```
-pip install -U selenium
+pip install selenium
+pip install webdriver_manager
 ```
 
 ##### Guardar instalado en mi archivo de versiones
